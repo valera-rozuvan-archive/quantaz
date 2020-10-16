@@ -1,0 +1,39 @@
+{
+  "name": "quantaz-api",
+  "version": "0.0.1",
+  "description": "quantaz API",
+  "engines": {
+    "node": ">= 12.0.0",
+    "npm": ">= 6.0.0"
+  },
+  "engineStrict": true,
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "build": "tsc --outDir ./dist",
+    "lint-subdirs": "eslint -c ./.eslintrc.js --resolve-plugins-relative-to ./ '*/**/*.ts'",
+    "lint-root": "eslint -c ./.eslintrc.js --resolve-plugins-relative-to ./ '*.ts'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/valera-rozuvan/quantaz.git"
+  },
+  "keywords": [],
+  "author": "Winding Tree",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/valera-rozuvan/quantaz/issues"
+  },
+  "homepage": "https://github.com/valera-rozuvan/quantaz#readme",
+  "dependencies": {
+    "@types/node": "^12.12.56",
+    "@vercel/node": "^1.8.2",
+    "typescript": "^4.0.2"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^4.4.0",
+    "@typescript-eslint/parser": "^4.4.0",
+    "eslint": "^7.11.0"
+  }
+}
