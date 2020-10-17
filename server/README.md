@@ -10,6 +10,5 @@ npm run build
 To lint:
 
 ```sh
-npm run lint-root
-npm run lint-subdirs
+npm run lint
 ```
